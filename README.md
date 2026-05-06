@@ -44,3 +44,29 @@ rule-files:
     - /var/lib/suricata/rules/suricata.rules
 
 ![Suricata Config Screenshot](screenshots/suricata-config.png)
+### 3. Update Rules
+Run the update command to get the latest rules:
+```bash
+sudo suricata-update
+![Suricata Update Screenshot](screenshots/Suricata%20update.png)
+Check the rule file configuration:
+```bash
+sudo nano /etc/suricata/rules/suricata.rules
+![Rule File Config Screenshot](screenshots/Rule%20file%20conf.png)
+
+### 4. Fix Rule File Path
+If you get a path error, update the rule file path in `suricata.yaml`:
+```bash
+sudo nano /etc/suricata/suricata.yaml
+![Fix Rule File Path Screenshot](screenshots/Fix%20rule%20file%20path.png)
+### 5. Start Suricata
+Start Suricata in IDS mode:
+```bash
+sudo suricata -c /etc/suricata/suricata.yaml -i eth0
+![Suricata Active Screenshot](screenshots/Suricata%20Active.jpeg)
+![Suricata Loaded Successfully Screenshot](screenshots/Suricata%20loaded%20successfully.jpeg)
+### 6. Test Installation
+Run a test to confirm Suricata is working:
+```bash
+sudo suricata --test -c /etc/suricata/suricata.yaml
+![Install Suricata Screenshot](screenshots/Install%20suricata.png)
