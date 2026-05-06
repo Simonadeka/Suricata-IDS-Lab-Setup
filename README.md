@@ -98,3 +98,12 @@ suricata-ids-lab-setup/
 │   ├── Suricata Active.jpeg
 │   ├── Suricata loaded successfully.jpeg
 │   └── Install suricata.png
+```
+
+---
+### Connect With Me
+
+- **LinkedIn**: simon.adeka/
+- **GitHub**: Simonadeka
+
+Built with 🚀 by Simon Friday Adeka
