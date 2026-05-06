@@ -70,3 +70,14 @@ Run a test to confirm Suricata is working:
 ```bash
 sudo suricata --test -c /etc/suricata/suricata.yaml
 ![Install Suricata Screenshot](screenshots/Install%20suricata.png)
+
+
+### Repository Structure
+suricata-ids-lab-setup/
+├── README.md
+├── screenshots/
+│   ├── Rule file conf.png
+│   ├── Fix rule file path.png
+│   ├── Suricata Active.jpeg
+│   ├── Suricata loaded successfully.jpeg
+│   └── Install suricata.png
