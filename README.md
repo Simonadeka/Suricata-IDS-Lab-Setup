@@ -103,7 +103,7 @@ suricata-ids-lab-setup/
 ---
 ### Connect With Me
 
-- **LinkedIn**: simon.adeka/
-- **GitHub**: Simonadeka
+- **LinkedIn**: [simon.adeka/](https://www.linkedin.com/in/simon-adeka/)
+- **GitHub**: [Simonadeka](https://github.com/Simonadeka/)
 
 Built with 🚀 by Simon Friday Adeka
