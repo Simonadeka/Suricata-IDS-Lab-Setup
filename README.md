@@ -73,6 +73,7 @@ sudo suricata --test -c /etc/suricata/suricata.yaml
 
 
 ### Repository Structure
+```
 suricata-ids-lab-setup/
 ├── README.md
 ├── screenshots/
