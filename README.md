@@ -30,3 +30,17 @@ Run this command on your Suricata Sensor VM:
 ```bash
 sudo apt update
 sudo apt install suricata
+
+## Step 2: Configure Suricata
+Open the Suricata config file:
+```bash
+sudo nano /etc/suricata/suricata.yaml
+'''''
+
+Update the `rule-files` section to look like this:
+
+```yaml
+rule-files:
+    - /var/lib/suricata/rules/suricata.rules
+
+![Suricata Config Screenshot](screenshots/suricata-config.png)
