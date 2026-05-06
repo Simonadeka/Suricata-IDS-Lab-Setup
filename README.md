@@ -71,7 +71,23 @@ Run a test to confirm Suricata is working:
 sudo suricata --test -c /etc/suricata/suricata.yaml
 ![Install Suricata Screenshot](screenshots/Install%20suricata.png)
 
+### Quick Reference - All Commands
+```bash
+# 1. Update Suricata rules
+sudo suricata-update
 
+# 2. Check rule file configuration  
+sudo nano /etc/suricata/rules/suricata.rules
+
+# 3. Fix rule file path in config
+sudo nano /etc/suricata/suricata.yaml
+
+# 4. Start Suricata in IDS mode
+sudo suricata -c /etc/suricata/suricata.yaml -i eth0
+
+# 5. Test installation
+sudo suricata --test -c /etc/suricata/suricata.yaml
+```
 ### Repository Structure
 ```
 suricata-ids-lab-setup/
