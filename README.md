@@ -19,7 +19,6 @@ A step-by-step guide to setting up Suricata IDS in a VirtualBox lab environment.
 - Ubuntu 22.04 VM (Suricata Sensor)
 - Ubuntu 22.04 VM (Suricata Controller)
 
-
 ## Prerequisites
 * VirtualBox installed
 * Ubuntu 22.04 VM (Suricata Sensor)
@@ -31,8 +30,3 @@ Run this command on your Suricata Sensor VM:
 ```bash
 sudo apt update
 sudo apt install suricata
-
-## Step 2: Configure Suricata
-Open the Suricata config file:
-```bash
-sudo nano /etc/suricata/suricata.yaml
